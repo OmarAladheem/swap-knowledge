@@ -14,12 +14,39 @@ body {
 /* heading and logo */
 
 h1, h2 {
-    font-family: Oswald; sans-serif;
+    font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #252525;
 }
-#logo {
-    float: left;
-    font-size: 280%;
+#container-1{
+    display: flex;
 }
+
+.box-1{
+    flex: 3;
+}
+
+.box-2{
+    flex: 1;
+}
+ @media(min-width:480px){
+    #container-1{
+        display: flex;
+    }
+ }
+
+ #menu {
+    font-size: 80%;
+    letter-spacing: 4px;
+    list-style-type: none;
+    margin: 10px;
+ }
+
+ #menu a {
+    text-decoration: none;
+ }
+
+ #container-1 a {
+    text-decoration: none;
+ }
